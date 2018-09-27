@@ -27,5 +27,9 @@
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elmoknit/vuejswebpack4-tests.git"
   }
 }
