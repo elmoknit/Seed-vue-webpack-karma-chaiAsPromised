@@ -43,6 +43,10 @@ module.exports = {
                     'css-loader',
                     'sass-loader'
                 ]
+            },
+            {
+                test: require.resolve('chai-as-promised'),
+                use: 'babel-loader'
             }
         ]
     },
