@@ -1,13 +1,9 @@
 export default class AuthService {
-
-  constructor () {
-  }
-
   validateForm (email, password) {
-   //todo
+    // todo
   }
 
   login (email, password) {
-    //todo
+    // todo
   }
 }

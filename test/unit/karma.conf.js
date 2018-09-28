@@ -6,8 +6,8 @@ module.exports = function (config) {
     frameworks: ['mocha', 'chai-as-promised', 'chai'],
     plugins: [
         'karma-mocha',
-        'karma-chai-as-promised',
         'karma-chai',
+        'karma-chai-as-promised',
         'karma-webpack',
         'karma-sourcemap-loader',
         'karma-coverage',
@@ -17,10 +17,10 @@ module.exports = function (config) {
     ],
     files: [
        '../../node_modules/@babel/polyfill/dist/polyfill.js',
-        '*.spec.js'
+        './index.js'
     ],
     preprocessors: {
-        '*.spec.js': ['webpack', 'sourcemap'],
+        './index.js': ['webpack', 'sourcemap'],
         [require.resolve('chai-as-promised')]: ['webpack']
     },
     webpack: webpackConfig,
